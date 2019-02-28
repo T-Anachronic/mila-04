@@ -1,12 +1,10 @@
 import React from "react"
-import {
-    Link
-} from "gatsby";
 import Navbar from "../components/navbar"
 import
 Header
 from "../components/header";
 import Layout from "../components/layout"
+import Footer from "../components/footer"
 
 export default () => ( <
     div style = {
@@ -29,6 +27,15 @@ export default () => ( <
     for visitors to find and visit each of the sub - pages.And it would be nice to have some sort of global navigation so it’ s easy
     for visitors to find and visit each of the sub - pages.And it would be nice to have some sort of global navigation so it’ s easy
     for visitors to find and visit each of the sub - pages < /p> < /
-    Layout > <
+    Layout >
+
+    <
+    Footer >
+    <
+    /
+    Footer >
+
+
+    <
     /div>
 )

@@ -10,22 +10,21 @@
     clear: both;
 } */
 
-.head {
-    font-size: 3rem;
-}
-
-.icon {
-    font-size: 6rem;
-}
 
 .title {
     margin: 0;
+    padding: 0 0 1.2rem 0;
+    font-size: 2rem;
 }
 
 .description {
     margin: 0;
 }
 
+
+.row {
+    background-color: #f1f1f1;
+}
 
 @media screen and (max-width:600px) {
     /* .column {

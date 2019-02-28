@@ -5,9 +5,10 @@ export default ({
 }) => ( <
     div style = {
         {
-            margin: '3rem auto',
-            maxWidth: '650',
-            padding: '0 5rem'
+            margin: '1.5rem auto',
+            maxWidth: '300',
+            padding: '0 5rem',
+
         }
     } > {
         children

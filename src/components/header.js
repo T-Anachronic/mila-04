@@ -2,6 +2,10 @@ import React from "react"
 
 export default props =>
     <
-    h1 > {
+    h2 style = {
+        {
+            fontSize: '2.25rem'
+        }
+    } > {
         props.headerText
-    } < /h1>
+    } < /h2>

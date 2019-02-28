@@ -4,3 +4,8 @@
     padding: 0;
     margin: 0;
 }
+
+.jumbotron {
+    height: 100vh;
+    background-color: rgba(98, 141, 233, 0.507);
+}
