@@ -46,7 +46,7 @@ export default ({ children }) => (
         style={{
           background: "inherit",
           fontWeight: "bold",
-          margin: "5rem 5rem auto",
+          margin: "1.3rem 5rem auto",
           height: 0,
           display: "flex",
           flexDirection: "row",
