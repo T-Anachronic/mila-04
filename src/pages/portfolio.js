@@ -1,28 +1,18 @@
 import React from "react"
-import Navbar from "../components/navbar"
-import
-Header
-from "../components/header"
-import Footer from "../components/footer"
+import Layout from "../components/layout"
 
 export default () => (
 
     <
-    div style = {
-        {
-            textAlign: 'center'
-        }
-    } >
+    div >
     <
-    Navbar > < /Navbar> <
-    Header headerText = "Nos réalisations" / >
+    Layout >
+    <
+    h1 > Notre portfolio < /h1> <
+    p > Lorem ipsum < /p>
 
     <
-    Footer >
-    <
-    /
-    Footer >
-
+    /Layout>
 
     <
     /div>

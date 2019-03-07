@@ -1,10 +1,10 @@
 import React from "react";
-import Navbar from "../components/navbar"
+import Layout from "../components/layout"
+import styled from "styled-components";
 import styles from "../styles/card.module.css";
 import Hero from "../components/hero-section";
 import Header from "../components/header";
 import AboutSection from "../components/about-section";
-import Footer from "../components/footer";
 
 const Row = props => ( <
     div className = {
@@ -31,17 +31,17 @@ const Row = props => ( <
     /div>
 );
 
+const ButtonWrapper = styled.button `
+background: blue;
+color: red;
+`
 
 export default () => ( <
-    div style = {
-        {
-            textAlign: "center"
-        }
-    } >
+    div >
+    <
+    Layout >
     <
     Hero >
-    <
-    Navbar > < /Navbar>
 
     <
     div className = "container"
@@ -78,7 +78,10 @@ export default () => ( <
     p > {
         " "
     } <
-    /div>{" "} < /
+    ButtonWrapper > Voir plus < /ButtonWrapper> < /
+    div > {
+        " "
+    } < /
     Hero > <
     section style = {
         {
@@ -164,11 +167,9 @@ export default () => ( <
     p > Contact form < /p> < /
     div >
 
+
     <
-    Footer >
-    <
-    /
-    Footer >
+    /Layout>
 
     <
     /

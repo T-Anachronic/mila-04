@@ -1,17 +1,17 @@
 import React from "react"
+import Navbar from "../components/navbar/navbar"
+// import Menu from "../components/menu/menu"
+import Footer from "../components/footer"
 
 export default ({
     children
 }) => ( <
-    div style = {
-        {
-            margin: '1.5rem auto',
-            maxWidth: '300',
-            padding: '0 5rem',
-
-        }
-    } > {
+    div>
+    <
+    Navbar / > {
         children
     } <
+    Footer / >
+    <
     /div>
 )
