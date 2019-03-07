@@ -67,7 +67,7 @@ p{
     text-decoration: none;
     display: inline-block;
     margin: 0 2rem 0 2rem;
-    width: 85% ;
+    width: 80% ;
     height: auto;
     cursor: pointer;
     webkit-transition-duration: 0.4s;
