@@ -1,144 +1,27 @@
 import React from "react";
 import Layout from "../components/layout"
-import styled from "styled-components";
-import styles from "../styles/card.module.css";
+// import styled from "styled-components";
 import Hero from "../components/hero-section";
 import Header from "../components/header";
+import Service from "../components/service-section"
 import AboutSection from "../components/about-section";
 
-const Row = props => ( <
-    div className = {
-        styles.row
-    } >
-    <
-    div className = {
-        styles.column
-    } >
-    <
-    h3 className = {
-        styles.title
-    } > {
-        props.title
-    } < /h3>{" "} <
-    p className = {
-        styles.description
-    } > {
-        props.description
-    } < /p>{" "} < /
-    div > {
-        " "
-    } <
-    /div>
-);
 
-const ButtonWrapper = styled.button `
-background: blue;
-color: red;
-`
+
 
 export default () => ( <
     div >
     <
     Layout >
-    <
-    Hero >
 
     <
-    div className = "container"
-    style = {
-        {
-            color: "#f1f1f1",
-            position: "relative",
-            top: "15rem"
-        }
-    } > {
-        " "
-    } <
-    h1 style = {
-        {
-            fontSize: "2.5rem"
-        }
-    } > {
-        " "
-    }
-    Nous accompagnons les ressortissants de l 'Afrique de l'
-    Est. {
-        " "
-    } <
-    /h1>{" "} <
-    p style = {
-        {
-            fontSize: "1.25rem"
-        }
-    } > {
-        " "
-    }
-    Nous organisons des événements culturels pour partager et promouvoir les cultures de l 'Afrique de l'
-    Est(concert, expositions, événements sportifs...) et créons des liens entre la communauté Africaine de l 'Est et la France. < /
-    p > {
-        " "
-    } <
-    ButtonWrapper > Voir plus < /ButtonWrapper> < /
-    div > {
-        " "
-    } < /
-    Hero > <
-    section style = {
-        {
-            backgroundColor: "#f1f1f1",
-            padding: "3.5rem 0 0 0"
-        }
-    } >
-    <
-    div style = {
-        {
-            paddingBottom: "1.5rem"
-        }
-    } >
-    <
-    Header headerText = "Deuxième section" / >
-    <
-    /div>{" "} <
-    div className = "container"
-    style = {
-        {
-            paddingBottom: '2.5rem'
-        }
-    } >
-    <
-    div className = "row" >
-    <
-    div className = "col-sm-4" >
-    <
-    Row title = "Caritatif"
-    description = "De part nos projets nous contribuons au développement économique, nous soutenons l'émergence de projet de coopérative pour la création d'activités locales et d'emploi dans les pays de l'Afrique de l'Est. " /
-    >
-    <
-    /div>
+    Hero / >
 
     <
-    div className = "col-sm-4" >
-    <
-    Row title = "Entraide"
-    description = "Nous accompagnons les ressortissants de l'Afrique de l'Est ( étudiants, demandeurs d'asiles, travailleurs, regroupements familiales...) en région PACA, pour les orienter auprès des différents institutions. Faciliter leurs démarches administratives pour favoriser leur intégration en région PACA. " /
-    >
-    <
-    /div>
+    Service / >
 
     <
-    div className = "col-sm-4" >
-    <
-    Row title = "Partage"
-    description = "Nous organisons des événements culturels pour partager et promouvoir les cultures de l'Afrique de l'Est ( concert, expositions, événements sportifs...) et créons des liens entre la communauté Africaine de l'Est et la France." /
-    >
-    <
-    /div> < /
-    div > <
-    /div> < /
-    section >
-
-    <
-    AboutSection > < /AboutSection>
+    AboutSection / >
 
     <
     div className = "container"

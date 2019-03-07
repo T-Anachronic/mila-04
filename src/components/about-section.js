@@ -1,72 +1,92 @@
 import React from "react"
+import styled from "styled-components"
+import MainImage from "../images/seth-doyle-78210-unsplash.jpg"
+import {
+    Link
+} from "gatsby";
 
 export default ({
     children
 }) => ( <
-    div style = {
-        {
-            margin: '5rem 0 5rem 0',
-            textAlign: 'left',
-
-        }
-    } >
+    MainSection >
     <
     div className = "container" >
     <
     div className = "row" >
     <
-    div className = "col-sm-6" >
+    div className = "col-md-6" >
     <
-    img src = "https://source.unsplash.com/random/1200x650"
-    alt = "" / > <
+    img src = {
+        MainImage
+    }
+    alt = "de couverture"
+    className = "img" / >
+    <
     /div> <
-    div className = "col-sm-6" >
+    div className = "col-md-6" >
     <
-    div style = {
-        {
-            display: 'flex',
-            flexDirection: 'column',
-            justifyContent: 'center',
-            height: '300px'
+    h2 >
+    Lorem Ipsum <
+    /h2> <
+    p > Lorem ipsum < /p>   <
+    Link to = "/about/" > <
+    button className = "button" > Voir plus
 
-        }
-    } >
     <
-    h2 style = {
-        {
-            fontSize: '2rem',
-            letterSpacing: '2.5px'
-        }
-    } > Titre de la section < /h2>  <
-    p > De part nos projets nous contribuons au développement économique, nous soutenons l 'émergence de projet de coopérative pour la création d'
-    activités locales et d 'emploi dans les pays de l'
-    Afrique de l 'Est. < /p>   <
-    button style = {
-        {
-            backgroundColor: '#4CAF50',
-            border: 'none',
-            color: '#f1f1f1',
-
-            padding: '5px',
-            textAlign: 'center',
-            textDecoration: 'none',
-            display: 'inline-block',
-            margin: '1px',
-            width: '28%',
-            height: 'auto',
-            cursor: 'pointer',
-            WebkitTransitionDuration: '0.4s',
-            transitionDuration: '0.4s',
-            boxShadow: '0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19)'
-        }
-    } > Voir plus <
-    /button> < /
-    div > <
+    /button>  < /
+    Link > <
     /
     div > < /
     div > <
-    /div> {
-    children
-} <
-/div>
+    /div>
+
+    {
+        children
+    } <
+    /MainSection>
 )
+
+const MainSection = styled.section `
+padding: 3rem 0 3rem 0;
+.img {
+
+}
+h2 {
+    font-size: 1.25rem;
+    padding: 0 0 1.5rem 0;
+}
+p{
+    font-size: 0.8rem;
+}
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: #f1f1f1;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 2rem 0 2rem;
+    width: 85% ;
+    height: auto;
+    cursor: pointer;
+    webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+@media(min-width: 768px) {
+    h2 {
+        font-size: 1.45rem;
+        margin: 0auto;
+        padding: 1.5rem 0 0.3rem 0;
+    }
+    p {
+        font-size: 0.65rem;
+        font-weight: 600;
+    }
+    .button {
+        width: 35%;
+        margin:0;
+    }
+}
+`
