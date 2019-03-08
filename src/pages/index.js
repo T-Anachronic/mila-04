@@ -5,6 +5,7 @@ import Hero from "../components/hero-section";
 import Header from "../components/header";
 import Service from "../components/service-section"
 import AboutSection from "../components/about-section";
+import AgendaSection from "../components/agenda-section"
 
 
 
@@ -24,17 +25,7 @@ export default () => ( <
     AboutSection / >
 
     <
-    div className = "container"
-    style = {
-        {
-            backgroundColor: "yellow",
-            padding: "3.5rem"
-        }
-    } >
-    <
-    Header headerText = "Quatrième section" / >
-    <
-    /div>
+    AgendaSection / >
 
     <
     div className = "container"

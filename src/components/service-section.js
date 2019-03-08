@@ -1,15 +1,10 @@
 import React from "react"
 import styled from "styled-components"
 import {
-    FaHandsHelping
-} from 'react-icons/fa';
-import {
-    FaFistRaised
-} from 'react-icons/fa';
-import {
+    FaHandsHelping,
+    FaFistRaised,
     FaGlobeAfrica
-} from "react-icons/fa";
-
+} from 'react-icons/fa';
 
 export default ({
     children
