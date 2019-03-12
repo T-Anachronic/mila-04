@@ -7,7 +7,16 @@
     height: 100vh;
     /* top: -44px; */
     /* opacity: 0.5; */
+}
 
+.hero2 {
+    background-image: url("../images/seth-doyle-78210-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+    z-index: 1;
 }
 
 @media (max-width: 768px) {}
