@@ -37,8 +37,8 @@ const NavWrapper = styled.nav `
 
 position: fixed;
 width: 100% ;
-top: 10px;
-
+top: 0;
+background-color: #333;
 z-index: 2000;
 
 @media (min-width: 768px){

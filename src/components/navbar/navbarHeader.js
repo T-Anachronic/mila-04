@@ -58,11 +58,13 @@ height: 60px;
 .logo {
     width: 10%;
     margin-top: 20px;
+    
 }
 
 .toggle-icon {
     font-size: 1.75rem;
     cursor: pointer;
+    color: #f1f1f1;
 }
 @media (min-width: 768px) {
     .toggle-icon {

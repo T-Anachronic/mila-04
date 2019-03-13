@@ -49,6 +49,7 @@ const MainSection = styled.section `
 font-size: 0.8rem;
 display: flex;
 margin: 2rem 0 auto;
+
 h2 {
   color: #f1f1f1;
   font-size: 1.25rem;
@@ -59,6 +60,7 @@ color: #f1f1f1;
   }
 
 .col-lg-4 {
+  margin-top: 15rem;
   z-index: 2000;
 }
 
@@ -80,6 +82,9 @@ color: #f1f1f1;
  }
   @media (min-width: 768px) {
     font-size: 0.65rem;
+    .col-lg-4 {
+      margin-top: 2.5rem;
+    }
     
     h2 {
       font-size: 1.45rem;

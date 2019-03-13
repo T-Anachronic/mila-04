@@ -6,7 +6,7 @@ import Hero from "../components/hero-section";
 import Service from "../components/service-section"
 import AboutSection from "../components/about-section";
 import AgendaSection from "../components/agenda-section"
-import ContactSection from "../components/contact-form"
+
 
 
 
@@ -28,8 +28,6 @@ export default () => ( <
     <
     AgendaSection / >
 
-    <
-    ContactSection / >
 
     <
     /Layout>

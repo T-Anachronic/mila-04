@@ -61,7 +61,9 @@ li {
     display: block;
     text-decoration: none;
     padding: 0.5rem 1rem 0.5rem 1rem;
+    background-color: #333;
     font-weight: 700;
+    font-size: 0.85rem;
     text-transform: capitalize;
     cursor: pointer;
     transition: all 0.5s linear;
@@ -79,7 +81,6 @@ transition: all 0.5s ease-in-out;
     display: flex;
     margin-right: 80px;
     .nav-link:hover {
-        background: white;
         padding: 0.5rem 1rem 0.5rem 1rem;
     }
 }
